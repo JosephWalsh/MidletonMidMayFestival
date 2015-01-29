@@ -1,0 +1,389 @@
+/*!
+ * Joe Walsh
+ */
+ 
+.joe {
+    text-align: center;
+} 
+ 
+section {
+    width: 90%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: rgba(255,255,255,0.8);
+	border-radius: 50px;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+section:hover {
+	background: white;
+}
+
+.scroll-wrapper {
+    -webkit-overflow-scrolling: touch;
+	height: 600px;
+	overflow-y: scroll;
+	overflow: hidden;
+}
+
+.scroll-wrapper iframe {
+	/* nada! */
+	height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+  .scroll-wrapper {
+    width: 650px;
+	padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (min-width: 992px) {
+  .scroll-wrapper {
+    width: 860px;
+	padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (min-width: 1200px) {
+  .scroll-wrapper {
+    width: 970px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+ 
+.myLogo {
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+}
+ 
+figure {
+    display: inline-block;
+    text-align: center;   
+}
+
+figcaption {
+    margin: -18px;
+}
+
+.photoGallery  {
+    display: inline-block;
+}
+
+.photoGallery img {
+    margin: 22px;
+}
+
+.day {
+    line-height: 300%;
+	text-align: center;	
+}
+ 
+#titlePageText {
+    text-align: center;
+	font-size: 120%;
+}
+ 
+.col-lg-2 {
+    color: #780000;
+	line-height: 300%;
+}
+ 
+.col-lg-6 {
+	line-height: 300%;
+}
+ 
+.col-lg-4 {
+    color: #333300;
+	line-height: 300%;
+}
+ 
+.eventDate {
+    display: inline-block;
+    background: black;
+	width: 130px;
+	height: 130px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+	margin: 10px;
+}
+
+.eventDate1 {
+    display: inline-block;
+    background: #404040;
+	width: 130px;
+	height: 130px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+	margin: 10px;
+}
+
+.eventDate p {
+   margin: 35px; 
+}
+
+.eventDate1 p {
+   margin: 32px; 
+}
+
+.eventDate:hover {
+	box-shadow: 5px 5px 3px rgba(0,0,0,.7);
+	-webkit-box-shadow: 5px 5px 3px rgba(0,0,0,.7);
+	-moz-box-shadow: 5px 5px 3px rgba(0,0,0,.7);
+	-webkit-transform: scale(1.15);
+	-moz-transform: scale(1.15);
+	position:relative;
+	z-index:5;
+	background: lightgrey;
+    cursor: pointer;
+}
+
+.eventDate1:hover {
+	box-shadow: 5px 5px 3px rgba(0,0,0,.7);
+	-webkit-box-shadow: 5px 5px 3px rgba(0,0,0,.7);
+	-moz-box-shadow: 5px 5px 3px rgba(0,0,0,.7);
+	-webkit-transform: scale(1.15);
+	-moz-transform: scale(1.15);
+	position:relative;
+	z-index:5;
+	background: lightgrey;
+    cursor: pointer;
+}
+
+.eventDate a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.eventDate1 a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.category {
+    display: inline-block;
+}
+
+.category  a {
+    text-decoration: none;
+}
+
+.category a:hover {
+	box-shadow: 5px 5px 3px rgba(0,0,0,.7);
+	-webkit-box-shadow: 5px 5px 3px rgba(0,0,0,.7);
+	-moz-box-shadow: 5px 5px 3px rgba(0,0,0,.7);
+	-webkit-transform: scale(1.15);
+	-moz-transform: scale(1.15);
+	position:relative;
+	z-index:5;
+	background: rgba(192,192,192,.9);
+    cursor: pointer;
+}
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url(../img/bg3.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.brand {
+    font-family: arial;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.8);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.0);
+}
+
+footer p {
+    margin: 0;
+    padding: 25px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: rgba(255,255,255,0.8);
+    }
+
+    .nav>li>a {
+        padding: 22px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+ span {
+    font-size: 133px;
+ }
